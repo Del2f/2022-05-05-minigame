@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(34, 34, 34, 0.89);
+}
+
+.Home_Icon{
+    display: flex;
+    justify-content: center;
+}
+
+.cloth_btn li {
+    list-style: none;
+}
+
+.cloth_btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button > img {
+    width: 100%;
+}
+
+.shirts_btn, .pants_btn, .skirt_btn {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.Selector li {
+    padding:5px;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    border-radius: 6%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.blue_btn {
+    background-color: rgb(33, 119, 218);
+}
+
+.yellow_btn {
+    background-color: rgb(241, 172, 23);
+}
+
+.pink_btn {
+    background-color: rgb(231, 27, 105);
+}
